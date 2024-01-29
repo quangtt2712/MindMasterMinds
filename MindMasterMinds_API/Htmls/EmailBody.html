@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .otp-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .otp-code {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4caf50;
+            margin-bottom: 20px;
+        }
+
+        .info-text {
+            color: #555;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="otp-container">
+        <img src="https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/419124820_122124418712054050_5569827886213051886_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHp2yfQnufj9pPq178NrPT1hcsA3C5miSSFywDcLmaJJKMDwM0uYjBLZfjQyHXtMmBB9xs87XNd7O69zI2bV_Lz&_nc_ohc=VIzaa-8eSGgAX_USQw_&_nc_ht=scontent.fdad3-4.fna&oh=00_AfAGmKJxUhPJqT-D3OKzow06P3xIp47iN6AMXP0XDA2mIw&oe=65B893F9" alt="MindMasterMinds Logo" width="200" height="auto">
+        <h2>Chào bạn</h2>
+        <h3>Bạn đang Đăng Ký Tài Khoản MindMasterMinds, Mã xác nhận là</h3>
+        <div class="otp-code">{OTP}</div>
+        <p class="info-text">Vui lòng hoàn thành xác nhận trong vòng 30 phút.</p>
+        <span style="color:rgb(119,119,119);font-size:13px">Đây là thư từ hệ thống, vui lòng không trả lời thư. </span>
+    </div>
+
+</body>
+</html>

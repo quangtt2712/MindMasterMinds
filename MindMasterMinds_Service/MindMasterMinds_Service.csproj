@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
+    <PackageReference Include="MailKit" Version="4.3.0" />
+    <PackageReference Include="MimeKit" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MindMasterMinds_Data\MindMasterMinds_Data.csproj" />
+    <ProjectReference Include="..\MindMasterMinds_Utility\MindMasterMinds_Utility.csproj" />
+  </ItemGroup>
+
+</Project>
